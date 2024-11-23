@@ -1,0 +1,5 @@
+.items div{
+  display: flex;
+  column-gap: 10px;
+  cursor: pointer;
+}

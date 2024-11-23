@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lista {
+  column-gap: 6px;
+}
+
+.bandeiras {
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+
+  .bandeiras {
+    width: 350px;
+  }
+
+  .container-bandeiras {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .container-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-img {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .container-sect:nth-child(1){
+    flex-direction: column-reverse;
+  }
+  .container-sect:nth-child(3){
+    flex-direction: column-reverse;
+  }
+  
+  
+}
+

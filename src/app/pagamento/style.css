@@ -1,0 +1,92 @@
+.container-payment {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-payment h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.paymentOptions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.paymentOptions label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paymentOptions input {
+    margin-bottom: 10px;
+}
+
+.paymentOptions img {
+    width: 50px;
+}
+
+.cardForm {
+    margin-top: 20px;
+}
+
+.cardForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cardForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.installments {
+    margin: 20px 0;
+}
+
+.installments p {
+    margin: 0 0 10px;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.buttonContainer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonContainer button:hover {
+    background: #218838;
+}
+
+.pixMessage {
+    margin-top: 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img {
+        width: 300px;
+    }
+}
